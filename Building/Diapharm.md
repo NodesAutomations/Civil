@@ -1,3 +1,9 @@
+---
+title: Diaphragm
+parent: Building
+nav_order: 2
+---
+
 What is diaphragm?
 - In structural engineering, a diaphragm is a horizontal structural element — usually a floor slab or roof deck — 
 - diapharm transfers lateral loads (like wind or earthquake forces) to the vertical resisting elements such as shear walls, braced frames, or moment-resisting frames.
