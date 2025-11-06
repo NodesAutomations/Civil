@@ -56,8 +56,7 @@ mermaid:
   version: "9.1.6"
 
 # Enable MathJax for LaTeX support
-mathjax:
-  version: "3"
+math: mathjax
   
 aux_links:
   Github: https://github.com/NodesAutomations/Civil
