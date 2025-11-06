@@ -54,6 +54,10 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "9.1.6"
+
+# Enable MathJax for LaTeX support
+mathjax:
+  version: "3"
   
 aux_links:
   Github: https://github.com/NodesAutomations/Civil
