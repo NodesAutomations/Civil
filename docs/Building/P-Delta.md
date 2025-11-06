@@ -12,3 +12,10 @@ math: mathjax
 
 $$M = P \times \Delta$$
   
+# Types of P-Delta effects
+- GLobal P-Delta effect
+  - Overall lateral sway of the entire structure
+  - for example wind load on tall building
+- Local P-Delta effect
+  - Local bending of individual members
+  - Column bending between floors
