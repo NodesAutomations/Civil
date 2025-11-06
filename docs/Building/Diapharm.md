@@ -1,7 +1,6 @@
 ---
 title: Diaphragm
 parent: Building
-nav_order: 2
 ---
 
 What is diaphragm?
