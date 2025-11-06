@@ -1,6 +1,7 @@
 ---
 title: P-Delta
 parent: Building
+math: mathjax
 ---
 
 # What is it?
