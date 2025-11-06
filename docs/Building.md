@@ -1,6 +1,6 @@
 ---
 title: Building 
-nav_order: 2
+has_children: true
 ---
 
 # Building
