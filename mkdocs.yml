@@ -11,10 +11,10 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Building:
-      - building/index.md
-      - Diapharm: building/Diapharm.md
-      - P-Delta Analysis: building/P-Delta.md
-      - Response Spectrum: building/Response-Spectrum.md
+    - building/index.md
+    - Diapharm: building/Diapharm.md
+    - P-Delta Analysis: building/P-Delta.md
+    - Response Spectrum: building/Response-Spectrum.md
     
 
 # Theme
