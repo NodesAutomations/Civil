@@ -4,10 +4,7 @@
 - In normal analysis, geometry of structure don't change when applying forces. 
 - So Internal forces are computed using original geometry.
 - But in reality, when structure deflects, loads act on deformed shape, producing secondary moment and increased stresses.
-- This is called `P-Delta` effect, here P = Axial load acting on structure and Delta = Lateral displacement
-
-$$M = P \times \Delta$$
-
+- This is called `P-Delta` effect $M = P \times \Delta$ , here P = Axial load acting on structure and Delta = Lateral displacement
 - P-Delta Analysis is extremely important in case of tall buildings where there is large amount of lateral drift  or structure with slender columns or frames or structure with high flexibility
 - seismic or wind-loaded buildings are also affected by this.
 
