@@ -1,0 +1,4 @@
+title: Home
+nav:
+  - Home: index.md
+  - Building: Building

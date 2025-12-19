@@ -22,19 +22,18 @@ theme:
   logo: assets/favicon.png
   favicon: assets/favicon.png
   palette:
-    # Palette toggle for dark mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
     - scheme: slate
       primary: black
       accent: indigo
       toggle:
           icon: material/brightness-4
           name: Switch to light mode
-    - scheme: default
-      primary: black
-      accent: indigo
-      toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
   features:
     - content.action.edit # Allows "Edit on GitHub" links
     - content.action.view # Allows "View on GitHub" links
@@ -46,6 +45,10 @@ theme:
     repo: fontawesome/brands/git-alt 
     edit: material/pencil 
     view: material/eye
+
+plugins:
+  - search
+  - awesome-nav
 
 # Extensions
 markdown_extensions:
@@ -67,21 +70,12 @@ markdown_extensions:
   - pymdownx.tasklist: # List extensions
       custom_checkbox: true
 
-# Extra JavaScript for KaTeX
-extra_javascript:
-  - javascripts/katex.js
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
-
-# Extra CSS for KaTeX
-extra_css:
-  - https://unpkg.com/katex@0/dist/katex.min.css
-
 # Copyright
 copyright: Copyright &copy; 2025 Nodes Automations
 
 # Footer social links
 extra:
+  generator: false # remove "Generated with MkDocs" footer
   social:
     - icon: fontawesome/solid/globe
       link: https://nodesautomations.com
@@ -91,5 +85,3 @@ extra:
       link: https://www.linkedin.com/in/vivekpatel-nodesautomations/
     - icon: fontawesome/brands/github
       link: https://github.com/orgs/NodesAutomations
-
-
