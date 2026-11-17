@@ -8,12 +8,6 @@ copyright = "Copyright &copy; 2025 Nodes Automations"
 
 [project.extra]
 generator = false
-social = [
-  { icon = "fontawesome/solid/globe", link = "https://nodesautomations.com" },
-  { icon = "fontawesome/brands/youtube", link = "https://www.youtube.com/NodesAutomations" },
-  { icon = "fontawesome/brands/linkedin", link = "https://www.linkedin.com/in/vivekpatel-nodesautomations/" },
-  { icon = "fontawesome/brands/github", link = "https://github.com/orgs/NodesAutomations" },
-]
 
 [project.theme]
 variant = "modern"
@@ -26,6 +20,13 @@ features = [
   "navigation.path",
   "navigation.tabs",
   "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.tracking",
+  "search.suggest",
+  "search.highlight",
+  "toc.follow",
+  "header.autohide",
 ]
 palette = [
   { scheme = "default", primary = "indigo", accent = "indigo", toggle = { icon = "material/brightness-7", name = "Switch to dark mode" } },
