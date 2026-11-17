@@ -1,0 +1,52 @@
+[project]
+site_name = "Civil Engineering"
+site_url = "https://nodesautomations.com/Civil/"
+repo_name = "Civil"
+repo_url = "https://github.com/NodesAutomations/Civil"
+edit_uri = "edit/main/docs/"
+copyright = "Copyright &copy; 2025 Nodes Automations"
+
+[project.extra]
+generator = false
+social = [
+  { icon = "fontawesome/solid/globe", link = "https://nodesautomations.com" },
+  { icon = "fontawesome/brands/youtube", link = "https://www.youtube.com/NodesAutomations" },
+  { icon = "fontawesome/brands/linkedin", link = "https://www.linkedin.com/in/vivekpatel-nodesautomations/" },
+  { icon = "fontawesome/brands/github", link = "https://github.com/orgs/NodesAutomations" },
+]
+
+[project.theme]
+variant = "modern"
+logo = "Images/favicon.png"
+favicon = "Images/favicon.png"
+features = [
+  "content.action.edit",
+  "content.action.view",
+  "content.code.copy",
+  "navigation.path",
+  "navigation.tabs",
+  "navigation.indexes",
+]
+palette = [
+  { scheme = "default", primary = "indigo", accent = "indigo", toggle = { icon = "material/brightness-7", name = "Switch to dark mode" } },
+  { scheme = "slate", primary = "black", accent = "indigo", toggle = { icon = "material/brightness-4", name = "Switch to light mode" } },
+]
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+[project.plugins.awesome-nav]
+
+[project.markdown_extensions]
+admonition = {}
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.snippets = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.arithmatex.generic = true
+def_list = {}
+pymdownx.tasklist.custom_checkbox = true
